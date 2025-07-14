@@ -1,0 +1,59 @@
+# --- Entorno Virtual de Python ---
+# Nunca subas tu entorno virtual. Contiene miles de archivos y es específico de tu máquina.
+/chatbot_env/
+venv/
+.venv/
+env/
+ENV/
+
+# --- Archivos de Caché de Python ---
+# Archivos compilados y caché que se generan automáticamente.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Archivos de Configuración Sensibles ---
+# ¡MUY IMPORTANTE! Nunca subas tus claves de API.
+# Vamos a usar un archivo de ejemplo para guiar a otros usuarios.
+config.py
+
+# --- Bases de Datos y Archivos Generados ---
+# La base de datos vectorial se debe construir localmente, no subir.
+/chroma_db/
+# Los documentos PDF generados por el script tampoco deben subirse.
+# La carpeta se creará al ejecutar el script de setup.
+/documentos/
+# El historial de conversación es específico de cada sesión.
+/conversation_history.json
+
+# --- Caché de Modelos de IA ---
+# Los modelos descargados son muy pesados (Gigas!).
+# Se deben descargar automáticamente en cada máquina.
+/model_cache/
+
+# --- Archivos de IDE y Sistema Operativo ---
+# Basura generada por editores de código y sistemas operativos.
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# --- Logs y Reportes ---
+# Archivos de registro que se generan durante la ejecución.
+*.log
+*.log.*
+# --- Archivos y Carpetas Específicas del Proyecto a Ignorar ---
+.current_session
+key.key
+*.pkl
+
+/chat_memories/
+/fuentes_conocimiento/
+/fuentes_documentos/
+/memorias/
+/memorias_adulto_mayor/
+/memorias_asesor_final/
+/memorias_asesor_tributario/
+/memorias_estrategicas/
+/scrape_cache/

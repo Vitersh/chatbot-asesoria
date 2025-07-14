@@ -1,0 +1,16 @@
+# requirements.txt
+torch
+transformers
+sentence-transformers
+ddgs
+chromadb
+pypdf
+bitsandbytes
+accelerate
+numpy
+google-api-python-client
+markdown-it-py
+PyMuPDF
+google-cloud-storage
+fastapi
+uvicorn[standard]
