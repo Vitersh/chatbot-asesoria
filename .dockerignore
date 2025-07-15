@@ -1,0 +1,28 @@
+# Ignorar el entorno virtual de Python
+chatbot_env/
+venv/
+.venv/
+
+# Ignorar el caché de modelos de IA (¡LA CAUSA MÁS PROBABLE!)
+model_cache/
+
+# Ignorar la base de datos local y los documentos generados
+# El contenedor los creará o descargará si es necesario
+chroma_db/
+documentos/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración de IDE y sistema
+.git/
+.gitignore
+.dockerignore
+.idea/
+.vscode/
+*.DS_Store
+
+# Ignorar logs y otros archivos temporales
+*.log
+conversation_history.json

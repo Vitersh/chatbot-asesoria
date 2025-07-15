@@ -1,16 +1,15 @@
-# requirements.txt
+# requirements.txt (Versión Final para Vertex AI)
 torch
-transformers
 sentence-transformers
-ddgs
-chromadb
 pypdf
-bitsandbytes
-accelerate
-numpy
+chromadb
 google-api-python-client
-markdown-it-py
-PyMuPDF
 google-cloud-storage
+google-cloud-aiplatform
 fastapi
 uvicorn[standard]
+markdown-it-py
+PyMuPDF
+google-generativeai
+google-cloud-aiplatform
+chromadb
