@@ -9,7 +9,6 @@ model_cache/
 # Ignorar la base de datos local y los documentos generados
 # El contenedor los creará o descargará si es necesario
 chroma_db/
-documentos/
 
 # Ignorar archivos de caché de Python
 __pycache__/

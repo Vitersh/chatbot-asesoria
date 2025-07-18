@@ -9,7 +9,9 @@ google-cloud-aiplatform
 fastapi
 uvicorn[standard]
 markdown-it-py
-PyMuPDF
+PyMuPDF==1.24.1
 google-generativeai
 google-cloud-aiplatform
 chromadb
+firebase-admin
+google-cloud-secret-manager
